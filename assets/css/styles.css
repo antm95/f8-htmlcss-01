@@ -7,6 +7,13 @@
     --primary-color: rgb(15, 27, 76);
 }
 
+/* Scroll Smooth for All Browser */
+html,
+body {
+    /* Other */
+    scroll-behavior: smooth;
+}
+
 html {
     /* Text */
     font-size: 62.5%;
