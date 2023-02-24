@@ -141,10 +141,9 @@ a {
     position: relative;
 
     /* Display & Box Model */
-    margin-top: -90px;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: calc(100vh - 90px);
 
     /* Color */
     background-color: #e6f0ff;
@@ -152,7 +151,7 @@ a {
 
 .hero {
     /* Display & Box Model */
-    margin-top: 208px;
+    margin-top: 130px;
 }
 
 .hero .info {
