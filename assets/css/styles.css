@@ -62,15 +62,19 @@ a {
 }
 
 /* ========== HEADER ========== */
-.header {
+.fixed-header {
     /* Positioning */
-    position: relative;
+    position: sticky;
+    top: -26px;
 
     /* Display & Box Model */
-    height: 109vh;
+    padding-top: 26px;
 
     /* Color */
     background-color: #e6f0ff;
+
+    /* Other */
+    z-index: 1;
 }
 
 /* ---------- Navigation Bar ---------- */
@@ -78,7 +82,7 @@ a {
     /* Display & Box Model */
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    padding: 12px 0;
 }
 
 .navbar ul {
@@ -132,9 +136,23 @@ a {
 }
 
 /* ---------- Hero ---------- */
+.hero-warp {
+    /* Positioning */
+    position: relative;
+
+    /* Display & Box Model */
+    margin-top: -90px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    /* Color */
+    background-color: #e6f0ff;
+}
+
 .hero {
     /* Display & Box Model */
-    margin-top: 130px;
+    margin-top: 208px;
 }
 
 .hero .info {
