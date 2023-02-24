@@ -231,25 +231,21 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 96px;
+    margin-top: 70px;
 }
 
-.clients .brand-images .btn {
+.clients .brand-images a {
     /* Display & Box Model */
-    position: relative;
-    min-width: 204px;
-    height: 91px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-
-    /* Color */
-    background-color: #fff;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 42px;
+    border-radius: 12px;
 }
 
-.brand-images .btn img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+.clients .brand-images a:hover {
+    /* Color */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* ========== Guides ========== */
