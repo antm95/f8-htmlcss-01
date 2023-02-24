@@ -150,23 +150,19 @@ a {
     /* Display & Box Model */
     display: flex;
     flex-direction: column;
+    justify-content: center;
     height: calc(100vh - 90px);
 
     /* Color */
     background-color: #e6f0ff;
 }
 
-.hero {
-    /* Display & Box Model */
-    margin-top: 130px;
-}
-
-.hero .info {
+.hero-warp .info {
     /* Display & Box Model */
     width: 50%;
 }
 
-.hero .sub-title {
+.hero-warp .sub-title {
     /* Color */
     color: #687690;
 
@@ -177,7 +173,7 @@ a {
     letter-spacing: 0.01em;
 }
 
-.hero .title {
+.hero-warp .title {
     /* Display & Box Model */
     margin-top: 8px;
 
@@ -190,7 +186,7 @@ a {
     line-height: 1.19;
 }
 
-.hero .desc {
+.hero-warp .desc {
     /* Display & Box Model */
     margin-top: 30px;
 
