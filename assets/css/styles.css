@@ -861,15 +861,36 @@ a {
 }
 
 .ftr .row .col .social {
+    /* Display & Box Model */
     display: flex;
     margin-top: 40px;
 }
 
-.ftr .row .col .social a {
-    padding-right: 16px;
+.ftr .row .col .social .social-link {
+    /* Display & Box Model */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 3px;
+
+    /* Color */
+    background-color: #f9f9f9;
+}
+
+.ftr .row .col .social .social-link + .social-link {
+    /* Display & Box Model */
+    margin-left: 16px;
+}
+
+.ftr .row .col .social .social-link:hover {
+    /* Color */
+    background-color: #ebebeb;
 }
 
 .ftr .row-bottom {
+    /* Display & Box Model */
     margin-top: 81px;
     align-items: center;
     justify-content: space-between;
